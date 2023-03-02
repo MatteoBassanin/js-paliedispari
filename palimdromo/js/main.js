@@ -1,4 +1,4 @@
-const parolaInserita = prompt("inserisci una parola per verificare se è palindroma");
+let parolaInserita = prompt("inserisci una parola per verificare se è palindroma");
 
 let parolaInvertita;
 console.log(parolaPalindroma(parolaInserita));
@@ -23,7 +23,7 @@ function parolaPalindroma(controllo){
 
     let i = controllo - 1;
 
-    while (i <= 0 ){
+    while (i >= 0 ){
         parolaInvertita += controllo[i];
         i--;
     }
