@@ -18,7 +18,7 @@ function numeroCasualeComputer(numeroComputer) {
     const randomNumberComputer = Math.floor(Math.random() * 4)+ 1;
     return randomNumberComputer;
 }
-console.log(numeroCasualeComputer(randomNumberForComputer));
+// console.log(numeroCasualeComputer(randomNumberForComputer));
 
 let sommaNumeri;
 sommaNumeri = numeroUtente + numeroCasualeComputer(randomNumberForComputer);
