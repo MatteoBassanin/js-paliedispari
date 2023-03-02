@@ -21,7 +21,7 @@ function numeroCasualeComputer(numeroComputer) {
 }
 
 let sommaNumeri = numeroUtente + numeroCasualeComputer(randomNumberForComputer);
-console.log(Sommanumeri);
+console.log(sommaNumeri);
 
 
 let numerovalore
@@ -39,3 +39,6 @@ function vincitore (valore){
 
     return result
 }
+console.log(vincitore(numerovalore));
+
+// if (oddEvenUser == vi)
