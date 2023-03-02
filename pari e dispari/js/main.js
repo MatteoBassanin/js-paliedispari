@@ -10,21 +10,22 @@ console.log(numeroUtente);
 const oddEvenUser = prompt("Indovina se il numero è pari o dispari");
 console.log(oddEvenUser);
 
-let randomNumberForComputer
+let randomNumberForComputer;
 
-console.log(numeroCasualeComputer(randomNumberForComputer));
 
 
 function numeroCasualeComputer(numeroComputer) {
-    const randomNumberComputer = Math.floor(Math.random() * 4) + 1;
+    const randomNumberComputer = Math.floor(Math.random() * 4)+ 1;
     return randomNumberComputer;
 }
+console.log(numeroCasualeComputer(randomNumberForComputer));
 
-let sommaNumeri = numeroUtente + numeroCasualeComputer(randomNumberForComputer);
+let sommaNumeri;
+sommaNumeri = numeroUtente + numeroCasualeComputer(randomNumberForComputer);
 console.log(sommaNumeri);
 
 
-let numerovalore
+let numeroValore;
 
 
 function vincitore (valore){
@@ -37,8 +38,12 @@ function vincitore (valore){
         result = "dispari";
     }
 
-    return result
+    return result;
 }
-console.log(vincitore(numerovalore));
+console.log(vincitore(numeroValore));
 
-// if (oddEvenUser == vi)
+if (oddEvenUser == vincitore(numeroValore)){
+    console.log("complimenti hai vinto");
+}else {
+    console.log("mi dispiace hai perso");
+}
