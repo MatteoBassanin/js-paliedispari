@@ -21,7 +21,7 @@ function parolaPalindroma(controllo){
 
     parolaInvertita = "";
 
-    let i = controllo - 1;
+    let i = controllo.length - 1;
 
     while (i >= 0 ){
         parolaInvertita += controllo[i];
